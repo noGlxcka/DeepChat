@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #202124; /* Dark background like Gemini */
+  color: #fff; /* White text */
+  border-radius: 5px; /* Corner radius for smooth UI */
+}
+
+#username-popup {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #444; /* Darker border */
+  background-color: #303134; /* Slightly lighter background for popup */
+  width: 300px;
+  border-radius: 5px; /* Corner radius for popup */
+}
+
+#chat-container {
+  border: 1px solid #444; /* Darker border */
+  padding: 10px;
+  border-radius: 5px; /* Corner radius for chat container */
+  background-color: #292A2C; /* Slightly lighter background for chat */
+}
+
+.you {
+  background-color: #303134; /* Darker background for received messages */
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: #fff; /* White text for received messages */
+}
+
+.me {
+  text-align: right;
+  background-color: #444; /* Even darker background for sent messages */
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: #fff; /* White text for sent messages */
+}
+
+/* Rainbow text style */
+.rainbow {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 100%;
+  background-position: 0 100%;
+  animation: rainbow 10s ease-in-out infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0 100%; }
+  25% { background-position: 50% 100%; }
+  50% { background-position: 100% 100%; }
+  75% { background-position: 150% 100%; }
+  100% { background-position: 200% 100%; }
+  }
+  
